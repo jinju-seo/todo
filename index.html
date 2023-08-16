@@ -1,0 +1,85 @@
+<!--
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Momentum</title>
+</head>
+<body>
+    <h2 id="clock">00:00:00</h2>
+    <form class="hidden" id="login-form">
+        <input 
+            required maxlength="15"
+            type="text" 
+            placeholder="What is your name?"
+        />
+        <input type="submit" value="Log In"/>
+    </form>
+    <h1 id="greeting"class="hidden"></h1>
+    <form id="todo-form">
+        <input type="text" placeholder="Write a To Do and Press Enter" required/>
+    </form>
+    <ul id="todo-list"></ul>
+    <div id="quote">
+        <span></span>
+        <span></span>
+    </div>
+    <div id="weather">
+        <span></span>
+        <span></span>
+
+    </div>
+    </body>
+    <script src="js/greetings.js"></script>
+    <script src="js/clock.js"></script>
+    <script src="js/quotes.js"></script>
+    <script src="js/background.js"></script>
+    <script src="js/todo.js"></script>
+    <script src="js/weather.js"></script>
+</body>
+</html>
+-->
+
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>todo</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <meta charset="utf-8"/>
+    </head>
+    <body>
+        <span class='js-temp'></span>
+        <span class='js-place'></span>
+
+    
+        <span class="js-quotes"></span>
+        <span class="js-author"></span>
+        
+
+        <div class="js-clock">
+            <h1>00:00:00</h1>
+        </div>
+
+        <h4 class="js-greetings greetings"></h4> <!--두 개의 클래스 지정-->
+
+        <h5>Write a To Do </h5>
+
+        <form class="js-form form">
+            <input type='text' placeholder="What is your name?"/>
+        </form>
+        
+        <form class="js-toDoForm">
+            <input type="text" placeholder=""/>
+        </form>
+        <ul class="js-toDoList">
+        </ul>
+        <script src="js/greetings.js"></script>
+        <script src="js/clock.js"></script>
+        <script src="js/quotes.js"></script>
+        <script src="js/background.js"></script>
+        <script src="js/todo.js"></script>
+        <script src="js/weather.js"></script>
+    </body>
+</html>
