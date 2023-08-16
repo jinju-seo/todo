@@ -1,39 +1,3 @@
-/*
-const loginForm = document.querySelector("#login-form") //HTML 문서에서 "login-form"이라는 id를 가진 요소를 찾아 loginForm 변수에 할당
-const loginInput = document.querySelector("#login-form input") // loginForm 변수를 통해 해당 로그인 폼 요소를 조작하거나 이벤트를 처리할 수 있
-const greeting = document.querySelector("#greeting")
-
-const HIDDEN_CLASSNAME = "hidden"
-const USERNAME_KEY = "username"
-
-function onLoginSubmit(event){
-    event.preventDefault() // 브라우저의 기본 동작을 막아줌(새로고침)
-    loginForm.classList.add(HIDDEN_CLASSNAME) // form 숨기기, classList는 element의 읽기전용 속성으로 css class의 현재 값을 반환
-    const username = loginInput.value
-    localStorage.setItem(USERNAME_KEY, username) // localStorage에 저장
-    paintGreetings(username)
-}
-
-function paintGreetings(username){
-    greeting.innerText = `Hello ${username}` // h1에 Hello username 추가하고
-    greeting.classList.remove(HIDDEN_CLASSNAME) // hidden 지워서 h1 나타내기 
-}
-
-
-const savedUsername = localStorage.getItem(USERNAME_KEY)
-
-if (savedUsername === null){
-    loginForm.classList.remove(HIDDEN_CLASSNAME)
-    loginForm.addEventListener("submit", onLoginSubmit)
-} else {
-    paintGreetings(savedUsername)
-}
-*/
-
-
-
-
-
 /// js-form의 input과 js-greetings 가져오기
 const form = document.querySelector(".js-form")
 const input = form.querySelector("input")

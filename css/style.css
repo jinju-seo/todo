@@ -18,7 +18,7 @@ h1{
 }
 
 
-/* Write a To Do and Press Enter */
+/* Write a To Do */
 h5{
     font-weight: 100;
     font-size: 22px;
@@ -107,12 +107,6 @@ button{
     left: 10px;
 }
 
-
-/* .left-top-corner {
-    position: absolute;
-    bottom: 10px;
-    left: 10px;
-  } */
 
 @keyframes fadeIn{
     from {
