@@ -1,25 +1,3 @@
-/*
-const API_KEY = "3065bbd6978962d19bb8e017c765c32a"
-
-function onGedOK(position){
-    const lat = position.coords.latitude // 위도
-    const lon = position.coords.longitude // 경도
-    const url = `https://api.openweathermap.org/data/2.5/weather?lat=${lat}&lon=${lon}&appid=${API_KEY}&units=metric`
-    fetch(url).then(Response => Response.json()).then((data) => {
-        const weather = document.querySelector("#weather span:first-child")
-        const city = document.querySelector("#weather span:last-child")
-        city.innerText = data.name
-        weather.innerText = `${data.weather[0].main} / ${data.main.temp}`
-    })
-}
-
-function onGedError(){
-    alert("Can't find you. No weather for you.")
-}
-
-navigator.geolocation.getCurrentPosition(onGedOK, onGedError) // 내 위치 가져옴
-*/
-
 const tem= document.querySelector(".js-temp");
 const pla= document.querySelector(".js-place");
 const API_KEY = "3065bbd6978962d19bb8e017c765c32a";
