@@ -16,7 +16,7 @@ document.body.appendChild(bgImage) // document.body에 bgImage를 가장 아래�
 const body = document.querySelector("body");
 
 // 이미지 개수
-const IMG_NUMBER=5;
+const IMG_NUMBER=4;
 
 // 랜덤 숫자 생성
 function genRandom(){
